@@ -11,7 +11,7 @@ st.set_page_config(page_title="Chat with the Custom docs, powered by LlamaIndex"
 api_key = st.sidebar.text_input("Enter your OpenAI API key", type="password")
 
 # openai.api_key = st.secrets.openai_key
-# openai.api_key = "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"
+# openai.api_key = ""
 
 if api_key:
     openai.api_key = api_key
